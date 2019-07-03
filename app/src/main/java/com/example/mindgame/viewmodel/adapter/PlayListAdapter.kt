@@ -151,6 +151,7 @@ class PlayListAdapter(
                 }
             }, 0, 300000)
         }
+        activity.txtTime.stop()
         dialogControl.setView(mView)
         val alertDialog = dialogControl.show()
         alertDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
