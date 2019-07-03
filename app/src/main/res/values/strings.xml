@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MindGame</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gameType">Oyun Türü Seç</string>
+    <string name="gameSizeOf">Oyun Büyüklüğünü Seç</string>
+    <string-array name="gameType">
+        <item>Seçiniz</item>
+        <item>Hayvan</item>
+        <item>Bitki</item>
+        <item>Eşya</item>
+        <item>Geometrik Şekil</item>
+    </string-array>
+    <string-array name="gameSizeOf">
+        <item>Seçiniz</item>
+        <item>10 Kare</item>
+        <item>20 Kare</item>
+    </string-array>
+</resources>
