@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/text_rounded_v2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtinformation"
+            android:layout_marginBottom="10dp"
+            android:text="OYUN BİTTİ"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtScoreTitle"
+            android:layout_marginBottom="10dp"
+            android:text="Oyun Puanı"
+            android:textAlignment="center"
+            android:textColor="@color/transparentGray"
+            android:textSize="16sp" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtScores"
+                android:layout_marginBottom="10dp"
+                android:text="Tüm bilgilerini siliyoruz."
+                android:textAlignment="center"
+                android:textColor="@color/transparentGray"
+                android:textSize="16sp" />
+        <Button
+            android:id="@+id/dialog_submit"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/text_rounded_v2"
+            android:gravity="center"
+            android:text="Ana Sayfa"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</LinearLayout>

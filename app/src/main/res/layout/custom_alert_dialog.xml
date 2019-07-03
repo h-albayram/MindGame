@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_rounded_v2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imgWarning"
+                android:layout_marginBottom="10dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_warning_red"
+                android:textAlignment="center"
+                android:textSize="16sp"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMessage"
+                android:layout_marginBottom="10dp"
+                android:text="Oyundan çıkmak istediğinden emin misin ?"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="16sp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="16dp"
+                      android:gravity="center">
+            <Button
+                    android:id="@+id/btnYep"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/text_rounded_v2"
+                    android:gravity="center"
+                    android:text="EVET"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"/>
+            <Button
+                    android:id="@+id/btnNo"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/text_rounded_v2"
+                    android:gravity="center"
+                    android:text="HAYIR"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
