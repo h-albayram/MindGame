@@ -5,6 +5,18 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="gameType">Oyun Türü Seç</string>
     <string name="gameSizeOf">Oyun Büyüklüğünü Seç</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="user_name">Oyuncu Adı</string>
+    <string name="score">Puan</string>
+    <string name="game_type">Oyun Türü</string>
+    <string name="game_size">Oyun Büyüklüğü</string>
+    <string name="play">OYNA</string>
+    <string name="score_table">PUAN TABLOSU</string>
+    <string name="game_score">Oyun Puanı</string>
+    <string name="no_button">HAYIR</string>
+    <string name="game_exit_alert">Oyundan çıkmak istediğinden emin misin ?</string>
+    <string name="yes_button">EVET</string>
+    <string name="last_game">Son Oynanan Oyun</string>
     <string-array name="gameType">
         <item>Seçiniz</item>
         <item>Hayvan</item>
