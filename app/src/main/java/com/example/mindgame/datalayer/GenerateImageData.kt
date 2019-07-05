@@ -47,10 +47,10 @@ object GenerateImageData {
         val imageList :ArrayList<PlayDto> = ArrayList()
         for (i in 0..numberList.size-1){
             val imageName=GameType+numberList[i]
-            val deneme=PlayDto(false,context.resources.getIdentifier(imageName,"drawable","com.example.mindgame"))
-            val deneme2=PlayDto(false,context.resources.getIdentifier(imageName,"drawable","com.example.mindgame"))
-            imageList.add(deneme)
-            imageList.add(deneme2)
+            val PlayImage=PlayDto(false,context.resources.getIdentifier(imageName,"drawable","com.example.mindgame"))
+            val PlayImage2=PlayDto(false,context.resources.getIdentifier(imageName,"drawable","com.example.mindgame"))
+            imageList.add(PlayImage)
+            imageList.add(PlayImage2)
         }
         return imageList
     }

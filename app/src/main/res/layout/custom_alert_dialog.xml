@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/txtMessage"
                 android:layout_marginBottom="10dp"
-                android:text="Oyundan çıkmak istediğinden emin misin ?"
+                android:text="@string/game_exit_alert"
                 android:textAlignment="center"
                 android:textColor="@color/gray"
                 android:textSize="16sp"/>
@@ -45,7 +45,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/text_rounded_v2"
                     android:gravity="center"
-                    android:text="EVET"
+                    android:text="@string/yes_button"
                     android:textAllCaps="false"
                     android:textColor="@color/colorAccent"/>
             <Button
@@ -58,7 +58,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/text_rounded_v2"
                     android:gravity="center"
-                    android:text="HAYIR"
+                    android:text="@string/no_button"
                     android:textAllCaps="false"
                     android:textColor="@color/colorAccent"/>
         </LinearLayout>

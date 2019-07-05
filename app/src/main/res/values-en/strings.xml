@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="user_name">User Name</string>
+    <string name="score">Score</string>
+    <string name="game_type">Game Type</string>
+    <string name="game_size">Game Size</string>
+    <string name="play">PLAY</string>
+    <string name="score_table">SCORE TABLE</string>
+    <string name="game_score">Game Score</string>
+    <string name="no_button">NO</string>
+    <string name="game_exit_alert">Are you sure you want to quit the game?</string>
+    <string name="yes_button">YES</string>
+    <string name="last_game">Last Played Game</string>
+    <string-array name="gameType">
+        <item>Choose</item>
+        <item>Animal</item>
+        <item>Plant</item>
+        <item>Object</item>
+        <item>Geometric Shapes</item>
+    </string-array>
+    <string-array name="gameSizeOf">
+        <item>Choose</item>
+        <item>10 Square</item>
+        <item>20 Square</item>
+    </string-array>
+</resources>

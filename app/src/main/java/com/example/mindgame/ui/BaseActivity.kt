@@ -20,7 +20,6 @@ open class BaseActivity : AppCompatActivity() {
             .setDuration(3000)
             .hideIcon()
             .show()
-
     }
     fun getActivityContext(): Context? {
         return this
